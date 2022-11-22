@@ -6,7 +6,7 @@ def handle_response(message):
     p_message = message
 
     def percent_gay():
-        return "yi" + 'is ' + str(random.randrange(1, 100))
+        return "They " + 'are ' + str(random.randrange(1, 100)) + '% ' + 'gay!'
 
     if p_message == '$hello':
         return 'Hey Guys Gabe Itch Here!'
